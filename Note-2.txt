@@ -1,0 +1,20 @@
+variable: container
+vary or change
+
+constant: Fixed Value
+PI: 3.14
+MONTHS: 12
+WEEK: 7
+
+final: which is used to fixed the value of the variable. 
+
+Data Types:
+
+Integer/Integral/Numerical Value Store
+
+1 byte = 8 bits
+
+byte - 1 byte
+short - 2 bytes
+int - 4 bytes
+long - 8 bytes
