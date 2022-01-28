@@ -14,7 +14,44 @@ Integer/Integral/Numerical Value Store
 
 1 byte = 8 bits
 
-byte - 1 byte
+byte - 1 byte = 8 bits
+
+1 bit +-
+7 bits number range
+base 2
+
+-2 ^ 7 to 2 ^ 7 - 1
+-128 to 127
+
 short - 2 bytes
 int - 4 bytes
 long - 8 bytes
+
+Decimal / Floating Point Values
+
+float - 4 bytes
+double - 8 bytes
+
+char - 2 bytes
+
+- because java works on unicode(universal code)
+
+String name = "Ram Kumar"
+- side depending upon O/S
+
+boolean flag = true; 
+
+- side depending upon O/S
+- 1 byte / 2 bytes / 4 bytes
+
+Java has two types of data types:
+
+1. Primitive data type: Value data Type - they all are in lowercase
+e.g: int, float, double, char, byte, short, long, ..... etc
+
+int a = 10;
+
+2. Reference data type: Address Data Type: in Capital case
+
+e.g: String
+
