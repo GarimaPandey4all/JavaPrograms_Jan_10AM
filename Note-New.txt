@@ -1,0 +1,36 @@
+Wrapper Classes
+
+
+A wrapper class is a class whose object wraps or contains primitive data types into create an object to a wrapper class.
+
+They convert primitive data types into objects.
+
+
+Primitive Data Types					Wrapper Classes
+
+int							Integer
+long							Long
+short							Short
+byte							Byte
+char							Character
+float							Float
+double							Double
+boolean							Boolean
+
+
+Autoboxing: Convert primitive data types into Wrapper class of their corresponding data types.
+int ---> Integer
+long ---> Long
+char --> Character
+
+
+Unboxing: Reverse process of autoboxing
+Integer ---> int
+Long ---> long
+
+
+
+
+
+
+
