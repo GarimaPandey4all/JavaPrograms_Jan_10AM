@@ -1,57 +1,61 @@
-variable: container
-vary or change
+Encapsulation: wrapping variables and methods into a single unit is called encapsulation
+e.g: class
 
-constant: Fixed Value
-PI: 3.14
-MONTHS: 12
-WEEK: 7
+Good/Secure Encapsulation: Data Hiding + Encapsulation
 
-final: which is used to fixed the value of the variable. 
+Constructor
 
-Data Types:
+Q1. Need to initialize the member variable when object is construct/create.
+Ans: We need constructor for this.
 
-Integer/Integral/Numerical Value Store
+- constructor is call when you create an object
+- So constructor will initialize the member variable
+- constructor name is same as class name
+- constructor never return anything
+- It is called only once
+- One class can have multiple constructors, so this thing is called constructor overloading
+- Every class by default have default constructor
+- So if you create any other constructor the default one is killed
 
-1 byte = 8 bits
+constructor has types:
 
-byte - 1 byte = 8 bits
+1. default constructor
+2. parameterized constructor
 
-1 bit +-
-7 bits number range
-base 2
+This keyword: It can hold current object's reference
 
--2 ^ 7 to 2 ^ 7 - 1
--128 to 127
+1. To differentiate the instance and local varibales
 
-short - 2 bytes
-int - 4 bytes
-long - 8 bytes
+2. To use default and parameterized constructor at a time
 
-Decimal / Floating Point Values
+When we need multiple constructor calls in a sinle call
+sol: we need constructor chaining for this.
+this keyword also use for constructor chaining
 
-float - 4 bytes
-double - 8 bytes
+What is Package in java?
 
-char - 2 bytes
+- Package is a folder / directory behind the scene
+- Package is a collection of classess, interfaces
+- We divide a big problem into small-2 packages
+- So we can group the similar code in same kind of packages
 
-- because java works on unicode(universal code)
+e.g:
 
-String name = "Ram Kumar"
-- side depending upon O/S
+Online Exam System
 
-boolean flag = true; 
+teacher
+student
+exam
 
-- side depending upon O/S
-- 1 byte / 2 bytes / 4 bytes
+Class Relationship: Inheritance
+- communicate b/w classes
 
-Java has two types of data types:
+1. IS-A Inheritance
+- BMW is a car
+- Savingaccount is a account
+- Lion is a animal
 
-1. Primitive data type: Value data Type - they all are in lowercase
-e.g: int, float, double, char, byte, short, long, ..... etc
-
-int a = 10;
-
-2. Reference data type: Address Data Type: in Capital case
-
-e.g: String
-
+2. HAS-A Inheritance
+- BMW has a driver
+- Customer has a account
+- customer has a order
