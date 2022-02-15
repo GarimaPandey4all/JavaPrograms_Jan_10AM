@@ -59,3 +59,39 @@ Class Relationship: Inheritance
 - BMW has a driver
 - Customer has a account
 - customer has a order
+
+- Inheritance: parent child relationship
+	by using extends keyword
+
+- code reuse
+
+Overriding:
+
+When parent feature is outdated so we override the parent feature in a child
+Overriding hide the parent feature
+
+- Must be inheritance
+- Method signature must be same
+void roi(), same child has same void roi()
+
+
+Abstract Concept
+
+- Abstraction: only share essential information not internal
+
+- Abstract Methods: can only be declared, not defined
+- Abstract Class: can have abstract methods
+- You can't create objects of abstract class
+
+Mutliple Inheritance
+
+	p1      p2
+	
+	
+	    C
+
+
+Interface
+
+- because it supports multiple inheritance / interface
+- it is also provide total abstraction
