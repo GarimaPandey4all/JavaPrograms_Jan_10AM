@@ -38,8 +38,7 @@ class Stud extends Per {
 	@Override
 	public void contNumber() {
 		
-		System.out.println("Student Contact Number");
-		
+		System.out.println("Student Contact Number");		
 	}
 }
 

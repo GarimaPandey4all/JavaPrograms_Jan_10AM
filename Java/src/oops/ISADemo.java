@@ -3,14 +3,14 @@ package com.brainmentors.java.oops;
 class Person { // parent class
 	private String name;
 	
-	Person()
-	{
-		name = "Ram Kumar";
-	}	
-//	Person(String name)
+//	Person()
 //	{
-//		this.name = name;
-//	}
+//		name = "Ram Kumar";
+//	}	
+	Person(String name)
+	{
+		this.name = name;
+	}
 	public void printName()
 	{
 		System.out.println(name);
@@ -29,7 +29,7 @@ class Employee extends Person // extends : inheritance
 	
 	Employee()
 	{
-		//super("Ram Kumar");
+		super("Ram Kumar");
 		//super(); // parent default cons call (implicit super call)
 		id = 101;
 	}
@@ -57,7 +57,7 @@ public class ISADemo {
 		e.printName();
 		e.contNumber();
 		
-//		Person p = new Person();
+//		Person p = new Person("Ram");
 //		p.contNumber();
 	}
 

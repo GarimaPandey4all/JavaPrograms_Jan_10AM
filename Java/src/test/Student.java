@@ -9,7 +9,7 @@ public class Student {
 		
 		CourseDetails course = new CourseDetails();
 		
-		//course.setCourseName("MCA");
+		course.setCourseName("MCA");
 		System.out.println(course.getCourseName());
 
 	}

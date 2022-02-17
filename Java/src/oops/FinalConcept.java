@@ -20,7 +20,7 @@ public class FinalConcept {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		final float pi = 3.14f;
+		float pi = 3.14f;
 		
 		//pi = 45.6f; // error
 		

@@ -14,14 +14,14 @@ public class Student {
 	//default constructor
 	Student(){
 		//Call Parametrized Constructor
-		this(1001, "Ram Kumar", "812364689", "MCA", 10000);
+		//this(1001, "Ram Kumar", "812364689", "MCA", 10000);
 		collegeName = "SRCC";
 	}
 	
 	//parameterized constructor
 	Student(int rollno, String name, String phone, String course, double fees)
 	{
-		//this(); // call default constructor
+		this(); // call default constructor
 		this.rollno = rollno;
 		this.name = name;
 		this.phone = phone;
@@ -39,10 +39,12 @@ public class Student {
 		System.out.println("College Name is: "+collegeName);
 	}
 	
+	//getter
 	public String getPhone() {
 		return phone;
 	}
 
+	//setter
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
@@ -51,9 +53,9 @@ public class Student {
 		// TODO Auto-generated method stub
 		
 		//Call Parameterized Constructor
-//		Student ram = new Student(1001, "Ram Kumar", "812364689", "MCA", 10000);	
+		Student ram = new Student(1001, "Ram Kumar", "812364689", "MCA", 10000);	
 		
-		Student ram = new Student(); // Call default constructor 
+		//Student ram = new Student(); // Call default constructor 
 		
 		// new - is used to allocate memory at runtime
 		//ram.takeInput(1001, "Ram Kumar", "812364689", "MCA", 10000);
